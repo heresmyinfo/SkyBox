@@ -1,0 +1,77 @@
+ I-code MS i Report File # Calc text Report text desc Long text cont Long text "Report window NCompressed image Bridges Subtype Dimension round Dim R/D suffix Extern image Extern 3D image Filewin layers Dim head size 2 byte type Diff bris Too many vars Dim toler
+ Assm pg margin MRO38769.ARD
+ V:\ARTIOSCAD14.1.3\SERVERLIB\EN\GLUE HATCHMARK.ARD
+ 200   20 X 12 X 6
+ MRO38769.ARD 09/23/2024 20 x 12 x 6 20 X 12 X 6 18+1/2 x 66
+ Cl3dB Cl3dB
+ 200   20 X 12 X 6
+ Grain/Corr: Side Shown: Description: Total Rule: Blank Size: Mfg Joint: Specific Rule Legend:
+ SC76 # of Components: SC2B # Parts Req: Joe GerichÏ— 0C2X Designer:
+ Drawing Based On: New Design C1        Q SLEV      @ GTAB       ZTDIM     Q O2        Q HAT1       GFX        FILL       TEXT      
+ NAME       PFILE      HATANG    
+ HATL      
+ LYR0C0    
+ COLOR2    A
+ T1        A COLOR3    A
+ T1        A
+ COLOR8    B
+ T1        B T5        B COLOR6    A
+ T1        A I2        @b~hC T1        A COLOR4    A
+ T1        A COLOR7    A
+ T1        A T4        A COLOR14   B
+ T1        B FWIN600   @b~hC
+ GRAPHOUT  A GFX       A FILL      A P1        A OL        A IL        A HATL      A
+ T         @b~hC T3        A T4        B T5        B T6        B T11       B T12       B T13       B T14       B T17       C T18       C T19       C T20       C T24       CG[*CL T29       Cs T30       Cu T31       Cv T32       Cw T36       CsC T37       Cu2<Cw T38       Cv T39       Cvs T44       CsC T45       Cu2<Cw T46       Cv T47       Cvs T49       A T50       A%9\AC{ T51       A2 T52       A9TcAW T57       B T62       C T63       C T64       C T65       C T68       B T69       B
+ STRIP     A Cl3dA G1        A[Š `Cl3dB G2        A[Š `Cl3dA G3        Ae G4        B^- G5        Ae G6        B` G7        B G8        B` G9        B G10       C'7 G11       B G12       C'Ü’ Cl3dBI G13       Cl3dCl3dBI G14       C'Ü‘ Cl3dB G15       A[ G16       A G17       B T7        B
+Ž COLOR4    C
+ T1        C
+À COLOR3    B T1        B
+ð ML13      CE I1        CE I2        CN
+Ÿ COLOR8    @
+Ó COLOR9    @
+ COLOR10   @
+ COLOR11   B T1        B
+ COLOR12   B T1        B
+¢ COLOR13   @
+Ù T11       @
+ COLOR16   B T1        B
+ COLOR17   B T1        B
+ COLOR24   @
+­ COLOR19   @
+ã COLOR20   B T1        B
+ COLOR21   B T1        B
+ C28       C T1        C C14       BV@
+„ C57       BV@ S1        BV@ T1        BV@
+¿ C58       B I2        B T1        B I3        B COLOR1    C S2        B
+ I1        B T1        B
+ I2        C I4        Q I1        Q I2        Q
+„ COLOR1    Q
+ S2        Q I1        Q I2        Q„ G29       @
+· GT25      @ CT4       @
+˜ FILL26    A F1        A F2        A F3        A F4        A F5        A F6        A
+· COLOR31   B
+ü T1        Bü T7        Bo T8        CM C35       C
+™ T1        C™ C37       C
+Ð T1        CÐ C38       C
+ T1        C COLOR41   A
+ T1        A C42       @
+ COLOR2    C T1        C COLOR3    C T1        C COLOR4    C'ZBC* xC76wC;
+ T1        C'ZBC* xC76wC;
+ COLOR5    C T1        C G9        A C6        Aý GT25      A
+ CT4       A FILL26    A
+ý F1        A COLOR7    A T1        A C10       CB LYR2C13   CBÇ COLOR18   CB
+ T1        CB T1        CB T19       Cm
+¦ T1        Cm¦ R20       Ciâ C21       Ci C22       Ci C23       Cm
+ T1        Cm’ C24       Cm
+Ç T1        Cm
+ STDMENU WITH 'F0201GEOM'
+ 1111170376 20 X 12 X 6
+ MRO38769.ARDC=
+ \\SKYFP\Artios\Designs\Designs\O
+ 2024-09-23Q
+ RSCUa#W
+ 2024-09-23]
+ M3R3=1 or M3R3=3 M3R3=2 OR M3R3=4
+ M4R3=1 AND M3R3<3 M4R3=1 AND M3R3>2 'M4R1<3 AND (M3R3=1 OR M3R3=3) AND TFS>1 'M4R1<3 AND (M3R3=2 OR M3R3=4) AND TFS>1
+ 'M4R1<3 AND (M3R3=1 OR M3R3=3) AND BFS>1 'M4R1<3 AND (M3R3=2 OR M3R3=4) AND BFS>1
+ 3(M4R1=2 OR M4R1=4) AND (M3R3=1 OR M3R3=3) AND BFS>1 M3R3=1 or M3R3=3 3(M4R1=2 OR M4R1=4) AND (M3R3=2 OR M3R3=4) AND BFS>1 3(M4R1=2 OR M4R1=4) AND (M3R3=2 OR M3R3=4) AND TFS>1 3(M4R1=2 OR M4R1=4) AND (M3R3=1 OR M3R3=3) AND TFS>1 3(M4R2=2 OR M4R2=4) AND (M3R3=1 OR M3R3=3) AND TFS>1 3(M4R2=2 OR M4R2=4) AND (M3R3=2 OR M3R3=4) AND TFS>1 'M4R2<3 AND (M3R3=2 OR M3R3=4) AND TFS>1

@@ -1,0 +1,141 @@
+ I-code MS U Report File # Calc text Report text desc Long text cont Long text "Report window NCompressed image Bridges Subtype Dimension round Dim R/D suffix Extern image Extern 3D image Filewin layers Dim head size 2 byte type Diff bris Too many vars Dim toler MRO35261.ARD
+ MRO35261.ARD 03/07/2023 30 x 30 x 2 30 X 30 X 2
+ 1 Piece Folder Air Cell
+ Grain/Corr: Side Shown: Description: Total Rule: Blank Size: Mfg Joint: Specific Rule Legend:
+ SC76 # of Components: SC2B # Parts Req: Joe GerichÏ— 0C2X Designer:
+ C1        Q C3        DK C4        BW C14       BWæ WDJg C16       BWæ ZDJg C14       BWæ ZDJg C18       BW C16       BW C14       BW C23       BW C14       BW C16       BWæ xDJh C14       BWæ xDJh C18       BW C16       BW C14       BW O1        Q
+ O3        D
+ U1        D
+ LYR0C0    
+ COLOR2    A
+ T1        A
+ COLOR3    Aé ecB3
+ T1        Aé ecB3
+ COLOR8    B
+ T1        B T5        B COLOR6    A
+ T1        A I2        A T1        A COLOR4    A
+ T1        A COLOR7    A
+ T1        A T4        A COLOR14   B
+ T1        B FWIN600   B,-
+ T3        Bhp T4        Bu T5        Bw T6        ByE T9        B T10       B T11       B T12       B T15       B T16       B T17       B T18       B T21       C T22       C T23       C T24       C ) T27       C1 T28       C4 T29       C5YDC6{yC T30       C5 T35       CJ<
+ T36       CK T37       CL
+ T38       CL T44       CJ<
+ T45       CK T46       CL
+ T47       CL T53       CJE T54       CK T55       CL T56       CL T62       CKX T65       CJ T68       CKX T74       CJE T75       CK T76       CL T77       CL T83       CJE T84       CK
+ T85       CL T86       CL T92       CJE T93       CK T94       CL T95       CL T100      B T105      CR T108      CW
+ STRIP     B,- G1        B G2        B G3        C G4        B G5        B G6        B G7        B G8        B,- G9        B G10       B G11       B G12       B G13       B G14       B G15       B G16       C"y@C"yAA G17       C G18       C"y@CF G19       C G20       B G21       C G22       B G23       C G24       B G25       B T7        B
+ COLOR4    C
+ T1        C
+ COLOR3    B T1        B
+ ML13      CE I1        CE I2        CN
+ò COLOR8    @
+ COLOR9    @
+ COLOR10   @
+‰ COLOR11   B T1        B
+¿ COLOR12   B T1        B
+õ COLOR13   @
+ T11       @
+ COLOR16   B T1        B
+Š COLOR17   B T1        B
+À COLOR24   @
+ó COLOR19   @
+ COLOR20   B T1        B
+ COLOR21   B T1        B
+Š C28       C T1        C¿ C14       B
+å C57       B S1        B T1        B
+ C58       BÜÕþ CGU2C I2        B T1        B I3        BÜÕþ CGU2C COLOR1    C ZfCGU2C S2        BÜÕþ CGU2C
+Ê I1        B T1        B
+¦ I2        C ZfCGU2C I4        Q I1        Q I2        Q
+å COLOR1    Q
+Ù S2        Q I1        Q I2        Qå G29       @
+ GT25      @ CT4       A
+ FILL26    A F1        A F2        A F3        A F4        A F5        A F6        A
+ COLOR31   B
+ T1        B T7        BoŒ T8        CMÅ C35       C
+ T1        C C37       C
+ T1        C C38       C
+ T1        C COLOR41   A
+  T1        A  C42       @
+ COLOR2    C T1        C COLOR3    C T1        C COLOR4    C'ZBC* xC76wC; T1        C'ZBC* xC76wC; COLOR5    C T1        C G9        B C6        B GT25      B
+È CT4       B¢ FILL26    B
+ F1        B COLOR7    B‚ T1        B
+ V:\ArtiosCAD14.1.3\InstLib\en\'
+ 1111170376 30 X 30 X 2
+ MRO35261.ARDC=
+„ +\\SKYFP\Artios\Designs\Designs\MRO35261.ARDO
+ 2023-03-07Q 1 Piece Folder Air C='
+ 1 Piece Folder Air CellUa#W
+ 2023-03-13]
+ Overall dimensionsD
+ DimensionsD
+º AnnotationE
+ 100% Cyan-\
+ 100 20 0 0eFp
+ HDefaults\Bridging\Artios\Corrugated\Corrugated - Inch - bridging formula='
+ DdDefaults\Single design parameter sets\Artios\Corrugated\Corrugated - Inch - Single design parametersH Artios3U%MU
+ Board selectionc$
+›‚ 'V:\ArtiosCAD14.1.3\InstLib\en\f0403.ardG+, Inside dimensionsc$
+ IC>0 AND IC<=D Inner cell width›‚ 'V:\ArtiosCAD14.1.3\InstLib\en\f0403.ardG+, Panel allowancesc$
+ Width Allowance
+ D1>=0 AND D1<=2*CAL Inner cell depth reduction
+ D2>=0 AND D2<=3*CALÞ $2nd panel inner cell depth reduction
+ D3>=0 AND D3<=2*CAL Outer flap depth allowance
+ IC1>=0 AND IC1<=2*CAL Inner cell width reduction
+ IC2>=0 AND IC2<=2*CALÞ  Inner cell inside flap reduction
+›‚ 'V:\ArtiosCAD14.1.3\InstLib\en\f0403.ardG+, Flap allowancesc$
+ OF >=0 AND OF<=CAL Outside flap allowance
+ IF >= 0 AND IF<=2*CAL Inside flap allowance
+ Over all length Board selectionZ Inside dimensionsZ Panel allowancesZ Flap allowances`
+ HelveticaW
+ %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+ &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+ %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+ &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+×Ø FJiJ/F~w8J
+ ASIZE 6.096*#m TSIZE 6.096*#m 7at 0.00 byx (OAL-2*OF) ITEMREF (:S:U:U1,1) type 1 poi 2 move by (OF) (IF) 9at 90.00 byy (W+W1-2*IF) ITEMREF (:S:U:U1,2) type 1 poi 2 Xdup (:S:U:U1,1) group neg y from START(:S:U:U1,2) pos END(:S:U:U1,2) ITEMREF (:S:U:U1,3)
+^dup (:S:U:U1,2) group neg x from END(:S:U:U1:C3,1) pos START(:S:U:U1:C3,1) ITEMREF (:S:U:U1,4)
+ 5cha (:S:U:U1,1..4) lev 0 lines bezier to type 2 poi 4 move to START(:S:U:U1:C4,2) ;at 270.00 byy (-(d+d3+if)) ITEMREF (:S:U:U1,5) type 1 poi 2 7at 0.00 byx (oal-2*of) ITEMREF (:S:U:U1,6) type 1 poi 2 7at 90.00 byy (d+d3+if) ITEMREF (:S:U:U1,7) type 1 poi 2 move to START(:S:U:U1,7) >at 270.00 byy (-((w+2*il)/2)) ITEMREF (:S:U:U1,8) type 1 poi 2 <at 180.00 byx (-(oal-2*of)) ITEMREF (:S:U:U1,9) type 1 poi 2 5to START(:S:U:U1,6) ITEMREF (:S:U:U1,10) type 1 poi 2 move to END(:S:U:U1,7) 7at 0.00 byx (d-d1+of) ITEMREF (:S:U:U1,11) type 1 poi 2 :at 90.00 byy (w+w1-2*if) ITEMREF (:S:U:U1,12) type 1 poi 2 move to END(:S:U:U1,11) 6at 0.00 byx (ic-ic1) ITEMREF (:S:U:U1,13) type 1 poi 2 Zdup (:S:U:U1,12) group neg x from END(:S:U:U1,11) pos END(:S:U:U1,13) ITEMREF (:S:U:U1,14) move to END(:S:U:U1,13) 4at 0.00 byx (d-d2) ITEMREF (:S:U:U1,15) type 1 poi 2
+`dup (:S:U:U1,14) group neg x from START(:S:U:U1:C14,12) pos END(:S:U:U1,15) ITEMREF (:S:U:U1,16)
+ 6at 0.00 byx (ic-ic2) ITEMREF (:S:U:U1,17) type 1 poi 2 Zdup (:S:U:U1,16) group neg x from END(:S:U:U1,15) pos END(:S:U:U1,17) ITEMREF (:S:U:U1,18) #move to END(:S:U:U1:C18:C16:C14,12) <to END(:S:U:U1:C16:C14,12) ITEMREF (:S:U:U1,19) type 1 poi 2 8to END(:S:U:U1:C14,12) ITEMREF (:S:U:U1,20) type 1 poi 2 4to END(:S:U:U1,12) ITEMREF (:S:U:U1,21) type 1 poi 2 <at 180.00 byx (-(d-d1+of)) ITEMREF (:S:U:U1,22) type 1 poi 2 ;cha (:S:U:U1,6,12,14,16) lev 0 lines bezier to type 2 poi 4
+ddup (:S:U:U1,5..22) group rot (180) from START(:S:U:U1,1) pos END(:S:U:U1:C3,1) ITEMREF (:S:U:U1,23)
+ DSIZE LIBRARY(TEXTSIZE)
+distance (:S:U:U1:C23:C18:C16:C14,12) (:S:U:U1:C23:C16:C14,12) SIZE DSIZE  ORIENT 0.00 POSTYPE 0 CP reverse extend (XORD(START(:S:U:U1:C23,5))-1.2526*#I,YORD(MIDPT(:S:U:U1,2))+1.1050*#I) ITEMREF (:O1:U1,1)
+ distance (:S:U:U1:C23:C16:C14,12) (:S:U:U1:C23:C14,12) SIZE DSIZE  ORIENT 0.00 POSTYPE 0 CP extend position((:O1:U1,1)) ITEMREF (:O1:U1,2)
+ distance (:S:U:U1:C23:C14,12) (:S:U:U1:C23,12) SIZE DSIZE  ORIENT 0.00 POSTYPE 0 CP extend position((:O1:U1,1)) ITEMREF (:O1:U1,3)
+ |distance (:S:U:U1:C23,12) (:S:U:U1:C4,2) SIZE DSIZE  ORIENT 0.00 POSTYPE 0 CP extend position((:O1:U1,1)) ITEMREF (:O1:U1,4)
+ wdistance (:S:U:U1:C4,2) (:S:U:U1,2) SIZE DSIZE  ORIENT 0.00 POSTYPE 0 CP extend position((:O1:U1,1)) ITEMREF (:O1:U1,5)
+ udistance (:S:U:U1,2) (:S:U:U1,12) SIZE DSIZE  ORIENT 0.00 POSTYPE 0 CP extend position((:O1:U1,1)) ITEMREF (:O1:U1,6)
+ zdistance (:S:U:U1,12) (:S:U:U1:C14,12) SIZE DSIZE  ORIENT 0.00 POSTYPE 0 CP extend position((:O1:U1,1)) ITEMREF (:O1:U1,7)
+ distance (:S:U:U1:C14,12) (:S:U:U1:C16:C14,12) SIZE DSIZE  ORIENT 0.00 POSTYPE 0 CP extend position((:O1:U1,1)) ITEMREF (:O1:U1,8)
+ distance (:S:U:U1:C16:C14,12) (:S:U:U1:C18:C16:C14,12) SIZE DSIZE  ORIENT 0.00 POSTYPE 0 CP reverse extend (XORD(START(:S:U:U1:C23,5))-1.2526*#I,YORD(MIDPT(:S:U:U1,2))+1.1050*#I) ITEMREF (:O1:U1,9)
+ distance (:S:U:U1,9) (:S:U:U1,6) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 SWIDTH 0.01*#I POSTYPE 0 CP reverse extend VECADD(MIDPT(:S:U:U1:C23,9),(1.8967*#I,-0.3793*#I)) ITEMREF (:O1:U1,10) FORMAT 3//
+ distance (:S:U:U1,6) (:S:U:U1,1) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 SWIDTH 0.01*#I POSTYPE 0 CP extend position((:O1:U1,10)) ITEMREF (:O1:U1,11) FORMAT 3//
+ distance (:S:U:U1,1) (:S:U:U1:C3,1) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 SWIDTH 0.01*#I POSTYPE 0 CP extend position((:O1:U1,10)) ITEMREF (:O1:U1,12) FORMAT 3//
+ distance (:S:U:U1:C3,1) (:S:U:U1:C23,6) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 SWIDTH 0.01*#I POSTYPE 0 CP extend position((:O1:U1,10)) ITEMREF (:O1:U1,13) FORMAT 3//
+ distance (:S:U:U1:C23,6) (:S:U:U1:C23,9) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 SWIDTH 0.01*#I POSTYPE 0 CP reverse extend VECADD(MIDPT(:S:U:U1:C23,9),(1.8967*#I,-0.3793*#I)) ITEMREF (:O1:U1,14) FORMAT 3//
+ distance (:S:U:U1:C23:C18:C16:C14,12) (:S:U:U1:C18:C16:C14,12) extend (XORD(END(:S:U:U1,15))-0.3602*#I,YORD(END(:S:U:U1,8))-0.4783*#I) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 SWIDTH 0.01*#I POSTYPE 0 ITEMREF (:O1:U1,15) CP FORMAT 3//
+ distance (:S:U:U1,9) (:S:U:U1:C23,9) extend VECADD(END(:S:U:U1,17),(0.8724*#I,-0.8429*#I)) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 SWIDTH 0.01*#I POSTYPE 0 ITEMREF (:O1:U1,16) CP FORMAT 3//
+ acha (:S:U:U1,5,7..11,13,15,17..22) (:S:U:U1:C23,5,7..11,13,15,17..22) lev 0 lines bezier to poi 3 Ltrans (:S:U:U1,1..23) group about handle(`(:S:U:U1,1..23)`, 5) rot -90 HORIZ DELETE (:O1,0..) GROUP HIDELAYER CLASS 4 ITEM 1 lDSIZE ROUNDUP(0.012314*#MSIZE, 0.01*#I) EXTLEN 0.000000*#MSIZE EXTGAP 0.000000*#MSIZE SWIDTH 0.000254*#MSIZE
+distance (:S:U:U1,9) (:S:U:U1,6) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP reverse extend (XORD(END(:S:U:U1:C23,8))+0.08830*#MSIZE,YORD(END(:S:U:U1:C23,17))+0.02603*#MSIZE) ITEMREF (:O2:U1,1) DIMROUND 16  FORMAT 3//
+ distance (:S:U:U1,6) (:S:U:U1,1) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP extend position((:O2:U1,1)) ITEMREF (:O2:U1,2) DIMROUND 16  FORMAT 3//
+ distance (:S:U:U1,1) (:S:U:U1:C3,1) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP extend position((:O2:U1,1)) ITEMREF (:O2:U1,3) DIMROUND 16  FORMAT 3//
+ distance (:S:U:U1:C3,1) (:S:U:U1:C23,6) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP extend position((:O2:U1,1)) ITEMREF (:O2:U1,4) DIMROUND 16  FORMAT 3//
+ distance (:S:U:U1:C23,6) (:S:U:U1:C23,9) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP extend (XORD(END(:S:U:U1:C23,8))+0.08830*#MSIZE,YORD(END(:S:U:U1:C23,17))+0.02603*#MSIZE) ITEMREF (:O2:U1,5) DIMROUND 16  FORMAT 3//
+ recolor
+<distance (:S:U:U1:C23:C18:C16:C14,12) (:S:U:U1:C23:C16:C14,12) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP reverse extend (XORD(END(:S:U:U1:C23,9))+0.03802*#MSIZE,YORD(END(:S:U:U1:C18:C16:C14,12))-0.05930*#MSIZE) ITEMREF (:O2:U1,6) DIMROUND 16  FORMAT 3//
+ distance (:S:U:U1:C23:C16:C14,12) (:S:U:U1:C23:C14,12) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP extend position((:O2:U1,6)) ITEMREF (:O2:U1,7) DIMROUND 16  FORMAT 3//
+ distance (:S:U:U1:C23:C14,12) (:S:U:U1:C23,12) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP extend position((:O2:U1,6)) ITEMREF (:O2:U1,8) DIMROUND 16  FORMAT 3//
+ distance (:S:U:U1:C23,12) (:S:U:U1:C4,2) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP extend position((:O2:U1,6)) ITEMREF (:O2:U1,9) DIMROUND 16  FORMAT 3//
+ distance (:S:U:U1:C4,2) (:S:U:U1,2) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP extend position((:O2:U1,6)) ITEMREF (:O2:U1,10) DIMROUND 16  FORMAT 3//
+ distance (:S:U:U1,2) (:S:U:U1,12) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP extend position((:O2:U1,6)) ITEMREF (:O2:U1,11) DIMROUND 16  FORMAT 3//
+ distance (:S:U:U1,12) (:S:U:U1:C14,12) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP extend position((:O2:U1,6)) ITEMREF (:O2:U1,12) DIMROUND 16  FORMAT 3//
+ distance (:S:U:U1:C14,12) (:S:U:U1:C16:C14,12) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP extend position((:O2:U1,6)) ITEMREF (:O2:U1,13) DIMROUND 16  FORMAT 3//
+ -distance (:S:U:U1:C16:C14,12) (:S:U:U1:C18:C16:C14,12) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP extend (XORD(END(:S:U:U1:C23,9))+0.03802*#MSIZE,YORD(END(:S:U:U1:C18:C16:C14,12))-0.05930*#MSIZE) ITEMREF (:O2:U1,14) DIMROUND 16  FORMAT 3//
+ recolor
+distance (:S:U:U1,9) (:S:U:U1:C23,9) extend (XORD(END(:S:U:U1:C23,8))+0.10086*#MSIZE,YORD(END(:S:U:U1:C23,17))+0.06289*#MSIZE) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 ITEMREF (:O2:U1,15) CP DIMROUND 16  FORMAT 3//
+ 5distance (:S:U:U1:C23:C18:C16:C14,12) (:S:U:U1:C18:C16:C14,12) extend (XORD(END(:S:U:U1:C23,9))+0.09081*#MSIZE,YORD(END(:S:U:U1:C18:C16:C14,12))-0.08611*#MSIZE) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 ITEMREF (:O2:U1,16) CP DIMROUND 16  FORMAT 3//
+ [condivide start((:S:U:U1:C23,9))  end((:S:U:U1:C23,9))  TIMES 2 type 34 ITEMREF (:S:U:C1,1)
+TEXT "L/E" POSITION MIDPT(:S:U:U1:C23,9) font 'TTF R' 'Arial' size 2*#I orient 0.0 expand 0.000 wscale 1.000 BOTTOM LEFT  ITEMREF (:O3:U1,1)
+ Btrans (:O3:U1,1) group about handle(`(:O3:U1,1)`, 5) rot -90 HORIZ
+qtrans (:O3:U1,1)  group from (XORD(HANDLEPT((:O3:U1,1),8)),YORD(HANDLEPT((:O3:U1,1),8))) pos MIDPT(:S:U:U1:C23,9)
+ 0trans (:O3:U1,1) group  by   7.2000*#I 0.0000*#I =con (:S:U:U1,6) offset2 15.125*#I type 34 ITEMREF (:S:U:C1,2) Acon (:S:U:U1:C23,6) offset2 15.125*#I type 34 ITEMREF (:S:U:C1,3) del (:S:U:C1,1) group del (:S:U:C1,2) group del (:S:U:C1,3) group

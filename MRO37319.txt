@@ -1,0 +1,80 @@
+ I-code MS U Report File # Calc text Report text desc Long text cont Long text "Report window NCompressed image Bridges Subtype Dimension round Dim R/D suffix Extern image Extern 3D image Filewin layers Dim head size 2 byte type Diff bris Too many vars Dim toler MRO37319.ARD
+ MRO37319.ARD 02/21/2024
+ Scored - Pad
+ Grain/Corr: Side Shown: Description: Total Rule: Blank Size: Mfg Joint: Specific Rule Legend:
+ SC76 # of Components: SC2B # Parts Req: Joe GerichÏ— 0C2X Designer:
+ C1        Q U1        A R1        A O1        A C1        Q U1        A O2        C U1        C LYR0C0    
+ COLOR2    A
+ T1        A COLOR3    Aé ecB3
+ T1        Aé ecB3
+ COLOR8    B
+ T1        B T5        B COLOR6    A
+ T1        A I2        A COLOR4    A
+ T1        A COLOR7    A
+ T1        A T4        A COLOR14   B
+ T1        B FWIN600   B
+ T3        B
+ T7        C
+ T12       C=
+ T17       B T20       B
+ STRIP     B G1        B G2        B T7        B
+ COLOR4    C
+ T1        C
+ COLOR3    B T1        B
+ ML13      CE
+ I1        CE
+ I2        CN
+ COLOR8    @
+ COLOR9    @
+ COLOR10   @
+ COLOR11   B T1        B
+ COLOR12   B T1        B
+ COLOR13   @
+ T11       @
+ COLOR16   B T1        B
+ COLOR17   B T1        B
+ COLOR24   @
+ COLOR19   @
+ COLOR20   B T1        B
+ COLOR21   B T1        B
+ C28       C T1        C C14       B
+ C57       B S1        B T1        B
+ C58       BÜÕþ CGU2C I2        B T1        B I3        BÜÕþ CGU2C COLOR1    C ZfCGU2C S2        BÜÕþ CGU2C
+ I1        B T1        B
+ I2        C ZfCGU2C I4        Q I1        Q I2        Q
+ COLOR1    Q
+ S2        Q I1        Q I2        Q G29       @
+ GT25      @ CT4       A
+ FILL26    A F1        A F2        A F3        A F4        A F5        A F6        A
+ COLOR31   B
+ T1        B T7        Bo T8        CM C35       C
+ T1        C C37       C
+ T1        C C38       C
+ T1        C COLOR41   A
+ T1        A C42       @
+ COLOR2    C T1        C COLOR3    C T1        C COLOR4    C'ZBC* xC76wC; T1        C'ZBC* xC76wC; COLOR5    C T1        C G9        B C6        B GT25      B
+ CT4       B FILL26    B
+ F1        B COLOR7    B T1        B
+ 1111170376
+ MRO37319.ARDC= +\\SKYFP\Artios\Designs\Designs\MRO37318.ARDD
+„ +\\SKYFP\Artios\Designs\Designs\MRO37319.ARDO
+ 2024-02-21Q SCORED - PAD='
+ Scored - PadUa#W
+ 2024-02-21]
+ DimensionsD
+ AnnotationD
+ 100% Cyan-\
+ 100 20 0 0eFp
+ HDefaults\Bridging\Artios\Corrugated\Corrugated - Inch - bridging formula='
+ DdDefaults\Single design parameter sets\Artios\Corrugated\Corrugated - Inch - Single design parametersH Artios3U%MU
+ Board selectionc$
+ %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+ &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+ %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+ &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+×Ø FJiJ/F~w8J
+ ASIZE 12.192*#m DSIZE 18.288*#m TSIZE 8.128*#m 8rect by (24*#I) (24*#I) ITEMREF (:S:U:U1,1) type 1 poi 2 lDSIZE ROUNDUP(0.018288*#MSIZE, 0.01*#I) EXTLEN 0.000000*#MSIZE EXTGAP 0.000000*#MSIZE SWIDTH 0.000254*#MSIZE
+distance (:S:U:U1:R1,4) (:S:U:U1:R1,2) extend VECADD(END(:S:U:U1:R1,2),(0.15656*#MSIZE,0.06375*#MSIZE)) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 ITEMREF (:O1:U1,1) CP DIMROUND 16  FORMAT 3//
+ del (:O1:U1,1) group
+movelasso (:S:U:U1:R1,3) startpt (:S:U:U1:R1,4) endpt (:S:U:U1:R1,2) BYANGLE (90-(0)) BYY (6*#I) PICKUP START(:S:U:U1:R1,3) START(:S:U:U1:R1,4)
+ MOVE TO START(:S:U:U1:R1,1) Ycondivide start((:S:U:U1:R1,4))  end((:S:U:U1:R1,4))  TIMES 2 type 34 ITEMREF (:S:U:C1,1) move to MIDPT(:S:U:U1:R1,4) 7to MIDPT(:S:U:U1:R1,2) ITEMREF (:S:U:U1,2) type 2 poi 2

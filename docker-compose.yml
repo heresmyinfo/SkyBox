@@ -1,0 +1,43 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: skybox_postgres
+    environment:
+      POSTGRES_DB: skybox_designs
+      POSTGRES_USER: skybox_user
+      POSTGRES_PASSWORD: skybox_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    restart: unless-stopped
+
+  backend:
+    build: ./backend
+    container_name: skybox_backend
+    ports:
+      - "3001:3001"
+    environment:
+      DATABASE_URL: postgresql://skybox_user:skybox_password@postgres:5432/skybox_designs
+      NODE_ENV: development
+    depends_on:
+      - postgres
+    volumes:
+      - ./data:/app/data
+      - .:/app/designs
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    container_name: skybox_frontend
+    ports:
+      - "3000:3000"
+    environment:
+      REACT_APP_API_URL: http://localhost:3001
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

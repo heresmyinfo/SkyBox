@@ -1,0 +1,123 @@
+ I-code MS U Report File # Calc text Report text desc Long text cont Long text "Report window NCompressed image Bridges Subtype Dimension round Dim R/D suffix Extern image Extern 3D image Filewin layers Dim head size 2 byte type Diff bris Too many vars Dim toler MRO32920.ARD
+ 22x10x1.75
+ MRO32920.ARD 03/29/2023 10 x 22 x 1+3/4 22 x 10 x 1.75 OPF 24+5/8 x 31+1/16
+ì 3vBus 22x10x1.75
+ Grain/Corr: Side Shown: Description: Total Rule: Blank Size: Mfg Joint: Specific Rule Legend:
+ SC76 # of Components: SC2B # Parts Req:Ï— 0C2X Designer:
+ 22x10x1.75 C1        Q DF        Q ZTDIM     Q LYR0C0    
+ COLOR2    A
+ T1        A COLOR3    Aé ecB3
+ T1        Aé ecB3
+ COLOR8    B
+ T1        B T5        B
+ COLOR6    A
+ T1        A
+ I2        A
+ T1        A
+ COLOR4    A
+ T1        A
+ COLOR7    A
+ T1        A
+ T4        A COLOR14   B
+ T1        B FWIN600   B?
+ T3        B` T4        BiH T5        Bl T6        Bn BwBwB T12       B T13       B T14       B T15       B T18       B T19       B T20       B T21       B T24       C,n T25       C. T26       C0 T27       C1?jC4 T33       C7 T34       C9 T35       C: T36       C;& T41       CG T42       CI T43       CJ T44       CK[ T47       CG+vCJx T48       CIT2CKqNB T49       CJB|CK T50       CJ T53       CF T54       CJ T55       CKÜ² CMYeB{V T56       CLU T59       CG+vCJx
+ T60       CIT2CKqNB T61       CJB}CK
+ T62       CJ
+ T65       CG T66       CI T67       CJ T68       CK[ T73       B T74       B T75       B T76       B T81       CR/ T82       CVL T83       CW; T84       CW T87       B T88       B T89       B T90       B
+ STRIP     BVH G1        B G2        B G3        B G4        B G5        C,$ G6        C,k G7        C,$ G8        B G9        B G10       B
+ G11       B
+ G12       BVH
+ G13       B
+ G14       B
+ G15       C,$ G16       B G17       C,k G18       C5
+ G19       C,k
+ G20       C5 G21       C,$ G22       B G23       B G24       B G25       B
+ COLOR4    C
+ T1        C
+ COLOR3    B T1        B
+ ML13      CE I1        CE I2        CN
+ COLOR8    @
+ COLOR9    @
+ COLOR10   @
+ COLOR11   B T1        B
+ COLOR12   B T1        B
+ COLOR13   @
+ T11       @
+ COLOR16   B T1        B
+ COLOR17   B T1        B
+ COLOR24   @
+ COLOR19   @
+Ž COLOR20   B T1        B
+¾ COLOR21   B T1        B
+ï C28       C T1        C C14       B
+ C57       B S1        B T1        B
+ C58       BÜÕþ CGU2C I2        B T1        B I3        BÜÕþ CGU2C COLOR1    C ZfCGU2C S2        BÜÕþ CGU2C
+ I1        B T1        B
+ð I2        C ZfCGU2C I4        Q I1        Q I2        Q
+ COLOR1    Q
+ S2        Q I1        Q I2        Q G29       @
+ GT25      @ CT4       A
+ FILL26    A F1        A F2        A F3        A F4        A F5        A F6        A
+ COLOR31   B
+¤ T1        B¤ T7        BoÍ T8        CM C35       C
+ T1        C C37       C
+ T1        C C38       C
+¬ T1        C COLOR41   A
+à T1        Aà C42       @
+ COLOR2    C T1        C COLOR3    C T1        C COLOR4    C$ T1        C$ COLOR5    C T1        C G9        B C6        B” GT25      B
+ CT4       Bä FILL26    B
+” F1        B COLOR7    BÄ T1        B PASTE      LYR2C5     LYR2C5     LYR2C5     LYR0C0     LYR2C5     P5        B LYR3C13   B COLOR8    B T1        B P6        Q LYR1C4    @
+ STDMENU WITH 'F0401GEOM'
+ 1111170376 22 x 10 x 1.75 OPF
+ MRO32920.ARDC=
+„ +\\SKYFP\Artios\Designs\Designs\MRO32920.ARDO
+ 2022-02-24Q
+ 2023-03-29]
+ AT 90P FLPZ
+ Overall DimensionsD
+ AnnotationD
+ 100% Cyan-\
+ 100 20 0 0eFp
+ HDefaults\Bridging\Artios\Corrugated\Corrugated - Inch - bridging formula='
+ DdDefaults\Single design parameter sets\Artios\Corrugated\Corrugated - Inch - Single design parametersH Unprinted sideS Artios3U%MU
+ Board selectionc$
+ ,getlwd with 'file STDMASTER sec F0401' 'L>W'?›‚ STDMASTERG+, :F0401XA Basic/Inside dimensionsc$
+ Dust flapsN Length flap offsetN Width flap offsetXA
+“  Style choicesY New style choice menu<IV& F0401WXA Panel allowancesc$ Allowance for length panel 1
+ Allowance for length panel 2 Allowance for width panel 1
+ Allowance for depth panel 1
+ Allowance for depth panel 2
+ F0401WXA Detail dimensionsc$ Length panel offset STEP(M3R1,CAL,2,IL): Width panel offset Dust flap clearance Width panel flap Board selectionZ Basic/Inside dimensionsZ
+“  Style choicesZ Panel allowancesZ Detail dimensions`
+ %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+ &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+ %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+ &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+×Ø FJiJ/F~w8J
+ movelasso (:S:U:U1,9) (:O1:U1,1..3,10) startpt (:S:U:U1,10) (:O1:U1,9) endpt (:S:U:U1,8) BYANGLE (90-(0)) BYY (3*#I) PICKUP END(:S:U:U1,8) END(:S:U:U1,8)
+ movelasso (:S:U:U1,0.1..19,23..28) (:O1:U1,1..5,7,10) startpt (:S:U:U1,20) (:O1:U1,6,8..9) endpt (:S:U:U1,22) BYANGLE (90+(0)) BYY (3*#I) PICKUP END(:S:U:U1,8) END(:S:U:U1,8)
+ ntrans (:S:U:U1,0.1..28) (:O1:U1,1..10) group about handle(`(:S:U:U1,0.1..28) (:O1:U1,1..10)`, 5) rot -90 HORIZ
+ del (:O1:U1,7) group
+qchange (:O1:U1,10) level 0 to position (XORD(END(:S:U:U1,9))-0.12615*#MSIZE,YORD(END(:S:U:U1,24))+0.00000*#MSIZE)
+ 2cha (:O1:U1,1..10) lev 0 to DIMROUND 16 format 3// _change (:O1:U1,9) level 0 to position VECADD(MIDPT(:S:U:U1,27),(0.11020*#MSIZE,0.11293*#MSIZE))
+TEXT "L/E" POSITION VECADD(MIDPT(:S:U:U1,27),(-2.6573*#I,4.9090*#I)) font 'TTF B' 'Arial' size 0.88*#I orient 0.0 expand 0.000 wscale 1.000 BOTTOM LEFT  ITEMREF (:O2:U1,1)
+ /trans (:O2:U1,1) group by -1.0407*#I -1.0407*#I copyd (:O2:U1,1) item 1 CP copyd (:O2:U1,1) item 2 CP *pasted 2 section LYR2C5 ITEMREF (:O2:U1,2) %move to COORD(-0.30757*#I,9.90212*#I) <cen (#x,#y) radius 1*#I cp ITEMREF (:S:U:U1,30) type 1 poi 2 *pasted 2 section LYR2C5 ITEMREF (:O2:U1,3) 0trans (:O2:U1,1) group by -0.1851*#I -16.4932*#I 0cha (:O2:U1,1) lev 0 to text "CERT" size 0.44*#I -trans (:O2:U1,1) group by 0.1543*#I 0.2755*#I copyd (:O2:U1,1) item 3 CP *pasted 3 section LYR2C5 ITEMREF (:O2:U1,4) -trans (:O2:U1,1) group by 2.5165*#I 0.1068*#I *cha (:O2:U1,1) lev 0 to  text "22x10x1.75" Mcha (:S:U:U1,30) lev 0 lines bezier to type 0 pointage 0 bridge 0 nickwidth 0 ,copyd (:S:U:U1,30) (:O2:U1,1..2,4) item 4 CP 2cha (:O1:U1,1..10) lev 0 to DIMROUND 16 format 3// =con (:S:U:U1,1) offset2 1.9375*#I type 34 ITEMREF (:S:U:C1,1) =con (:S:U:U1,3) offset2 1.9375*#I type 34 ITEMREF (:S:U:C1,2) Scondivide start((:S:U:U1,3))  end((:S:U:U1,3))  TIMES 2 type 34 ITEMREF (:S:U:C1,3) del (:S:U:C1,2) group del (:S:U:C1,3) group copyd (:S:U:C1,1) item 6 CP del (:S:U:C1,1) group del (:O1:U1,4..5,9) group del (:O1:U1,1..3,10) group copyd (:O1:U1,6..8) item 7 CP del (:O1:U1,6..8) group
+movelasso (:S:U:U1,9) startpt (:S:U:U1,10) endpt (:S:U:U1,8) BYANGLE (180-(0)) BYX (-3*#I) PICKUP END(:S:U:U1,9) END(:S:U:U1,9)
+ |movelasso (:S:U:U1,21) startpt (:S:U:U1,22) endpt (:S:U:U1,20) BYANGLE (0) BYX (3*#I) PICKUP END(:S:U:U1,20) END(:S:U:U1,20)
+ lDSIZE ROUNDUP(0.018288*#MSIZE, 0.01*#I) EXTLEN 0.000000*#MSIZE EXTGAP 0.000000*#MSIZE SWIDTH 0.000254*#MSIZE
+distance (:S:U:U1,9) (:S:U:U1,6) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP reverse extend (XORD(MIDPT(:S:U:U1,20))+0.00356*#MSIZE,YORD(END(:S:U:U1,27))+0.03721*#MSIZE) ITEMREF (:O1:U1,1) DIMROUND 16  FORMAT 3//
+ distance (:S:U:U1,6) (:S:U:U1,1) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP extend position((:O1:U1,1)) ITEMREF (:O1:U1,2) DIMROUND 16  FORMAT 3//
+ distance (:S:U:U1,1) (:S:U:U1,3) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP extend position((:O1:U1,1)) ITEMREF (:O1:U1,3) DIMROUND 16  FORMAT 3//
+ distance (:S:U:U1,3) (:S:U:U1,18) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP extend position((:O1:U1,1)) ITEMREF (:O1:U1,4) DIMROUND 16  FORMAT 3//
+ distance (:S:U:U1,18) (:S:U:U1,21) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP reverse extend (XORD(MIDPT(:S:U:U1,20))+0.00356*#MSIZE,YORD(END(:S:U:U1,27))+0.03721*#MSIZE) ITEMREF (:O1:U1,5) DIMROUND 16  FORMAT 3//
+ recolor
+distance (:S:U:U1,27) (:S:U:U1,24) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP reverse extend (XORD(END(:S:U:U1,21))+0.07664*#MSIZE,YORD(END(:S:U:U1,14))+0.02048*#MSIZE) ITEMREF (:O1:U1,6) DIMROUND 16  FORMAT 3//
+ distance (:S:U:U1,24) (:S:U:U1,4) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP extend position((:O1:U1,6)) ITEMREF (:O1:U1,7) DIMROUND 16  FORMAT 3//
+ distance (:S:U:U1,4) (:S:U:U1,2) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP extend position((:O1:U1,6)) ITEMREF (:O1:U1,8) DIMROUND 16  FORMAT 3//
+ distance (:S:U:U1,2) (:S:U:U1,12) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP extend position((:O1:U1,6)) ITEMREF (:O1:U1,9) DIMROUND 16  FORMAT 3//
+ distance (:S:U:U1,12) (:S:U:U1,15) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 CP reverse extend (XORD(END(:S:U:U1,21))+0.07664*#MSIZE,YORD(END(:S:U:U1,14))+0.02048*#MSIZE) ITEMREF (:O1:U1,10) DIMROUND 16  FORMAT 3//
+ recolor
+distance (:S:U:U1,9) START(:S:U:U1,21) extend (XORD(MIDPT(:S:U:U1,20))+0.02861*#MSIZE,YORD(END(:S:U:U1,27))+0.08048*#MSIZE) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 ITEMREF (:O1:U1,11) CP DIMROUND 16  FORMAT 3//
+ distance (:S:U:U1,27) (:S:U:U1,15) extend (XORD(END(:S:U:U1,21))+0.15863*#MSIZE,YORD(END(:S:U:U1,14))+0.00681*#MSIZE) FONT `TTF R` `Arial`  SIZE DSIZE  ORIENT 0.00 HEADTYPE  1 HEADSIZE  5 SWIDTH 0.00025*#MSIZE POSTYPE 0 ITEMREF (:O1:U1,12) CP DIMROUND 16  FORMAT 3//
+ .trans (:O2:U1,1) group by 0.2969*#I -1.0734*#I /trans (:O2:U1,4) group by -0.2284*#I -0.6766*#I .trans (:O2:U1,1) group by -0.1599*#I 0.3585*#I "cha (:O2:U1,4) lev 0 to  text "32"
+ntrans (:O2:U1,4) group by xord(HANDLEPT((:O2:U1:C4,1),6))--0.3936*#I yord(HANDLEPT((:O2:U1:C4,1),6))-9.8906*#I

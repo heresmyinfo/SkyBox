@@ -1,0 +1,78 @@
+ I-code MS U Report File # Calc text Report text desc Long text cont Long text "Report window NCompressed image Bridges Subtype Dimension round Dim R/D suffix Extern image Extern 3D image Filewin layers Dim head size 2 byte type Diff bris Too many vars Dim toler MRO37311.ARD
+ 200   18 X 18 X 12
+ V:\ARTIOSCAD14.1.3\SERVERLIB\EN\GLUE HATCHMARK.ARD
+ MRO37311.ARD 02/21/2024 18 x 18 x 12 18 X 18 X 12 30+1/2 x 74
+ó AIbmB AIbmB
+ 200   18 X 18 X 12
+ Grain/Corr: Side Shown: Description: Total Rule: Blank Size: Mfg Joint: Specific Rule Legend:
+ SC76 # of Components: SC2B # Parts Req: Joe GerichÏ— 0C2X Designer:
+ C1        Q SLEV      @ GTAB       ZTDIM     Q O1        Q O3        D U1        D HAT1       GFX        FILL       TEXT      
+ NAME       PFILE      HATANG    
+ HATL      
+ LYR0C0    
+ COLOR2    A
+ T1        A COLOR3    A
+ T1        A
+ COLOR8    B
+‚ T1        B T5        B COLOR6    A
+â T1        A I2        @b~TC T1        A COLOR4    A
+ T1        A COLOR7    A
+€ T1        A T4        A COLOR14   B
+â T1        B FWIN600   @b~TC
+ GRAPHOUT  AOn GFX       AOn FILL      AOn P1        AOn OL        AOn IL        AOn HATL      AOn
+ T         @b~TC
+ T3        A T4        A T5        A T6        B
+ T10       B T11       B2 T12       B8 T13       B; T17       B T18       B T19       B T20       B T24       C T25       C T26       C
+ T27       C
+ T31       CL T36       Cm
+ T37       Cq| T38       Cr CuelB T39       Cs T43       Cmn T44       Ct T45       Cu T46       CvY T50       Cm T51       Cq| T52       Cr CuelA T53       Cs T58       B T63       CzV T64       C T65       C T66       C T69       B
+ T70       B
+ STRIP     AIbmCl[LAs/8B G1        A G2        Aˆú² Cl[LAs/8B*i G3        A G4        B G5        A G6        B G7        B G8        B G9        B G10       C5 G11       B G12       C6~7Cl[KB*i G13       Cl[KCl[KB*i G14       C6~7Cl[KB G15       A G16       AIbmA G17       B T7        B
+ COLOR4    C
+ T1        C
+ COLOR3    B T1        B
+– ML13      CE I1        CE I2        CN
+ COLOR8    @
+ COLOR9    @
+« COLOR10   @
+Ü COLOR11   B T1        B
+ COLOR12   B T1        B
+ COLOR13   @
+ T11       @
+© COLOR16   B T1        B
+Ý COLOR17   B T1        B
+ COLOR24   @
+ COLOR19   @
+ COLOR20   B T1        B
+¯ COLOR21   B T1        B
+à C28       C T1        C C14       B
+ C57       B S1        B T1        B
+ C58       BÜÕþ CGU2C I2        B T1        B I3        BÜÕþ CGU2C COLOR1    C ZfCGU2C S2        BÜÕþ CGU2C
+ I1        B T1        B
+á I2        C ZfCGU2C I4        Q I1        Q I2        Q
+ COLOR1    Q
+ S2        Q I1        Q I2        Q G29       @
+ GT25      @ CT4       A
+ FILL26    A F1        A F2        A F3        A F4        A F5        A F6        A
+ COLOR31   B
+— T1        B— T7        BoÀ T8        CMù C35       C
+ T1        C C37       C
+ T1        C C38       C
+Ÿ T1        CŸ COLOR41   A
+Ô T1        AÔ C42       @
+ COLOR2    C T1        C COLOR3    C T1        C COLOR4    C'ZBC* xC76wC; T1        C'ZBC* xC76wC; COLOR5    C T1        C G9        B C6        B“ GT25      B
+ CT4       Bã FILL26    B
+“ F1        B COLOR7    BÃ T1        B
+ STDMENU WITH 'F0201GEOM'
+ 1111170376 18 X 18 X 12
+ MRO37311.ARDC=
+„ +\\SKYFP\Artios\Designs\Designs\MRO37311.ARDO
+ 2024-02-21Q
+ RSCUa#W
+ 2024-02-21]
+ M3R3=1 or M3R3=3 M3R3=2 OR M3R3=4
+ M4R3=1 AND M3R3<3 M4R3=1 AND M3R3>2 'M4R1<3 AND (M3R3=1 OR M3R3=3) AND TFS>1 'M4R1<3 AND (M3R3=2 OR M3R3=4) AND TFS>1
+ 'M4R1<3 AND (M3R3=1 OR M3R3=3) AND BFS>1 'M4R1<3 AND (M3R3=2 OR M3R3=4) AND BFS>1
+ 3(M4R1=2 OR M4R1=4) AND (M3R3=1 OR M3R3=3) AND BFS>1 M3R3=1 or M3R3=3 3(M4R1=2 OR M4R1=4) AND (M3R3=2 OR M3R3=4) AND BFS>1 3(M4R1=2 OR M4R1=4) AND (M3R3=2 OR M3R3=4) AND TFS>1 3(M4R1=2 OR M4R1=4) AND (M3R3=1 OR M3R3=3) AND TFS>1 3(M4R2=2 OR M4R2=4) AND (M3R3=1 OR M3R3=3) AND TFS>1 3(M4R2=2 OR M4R2=4) AND (M3R3=2 OR M3R3=4) AND TFS>1 'M4R2<3 AND (M3R3=2 OR M3R3=4) AND TFS>1
+ 'M4R2<3 AND (M3R3=1 OR M3R3=3) AND TFS>1
+ 'm4r2<3 and (m3r3=1 or m3r3=3) and bfs>1
