@@ -1,0 +1,68 @@
+[
+  {
+    "design_id": "MRO32920",
+    "customer_name": "",
+    "box_size": "22.00 x 10.00 x 1.12",
+    "box_style": "OPF",
+    "board_grade": "32ECT",
+    "unit_count": 500,
+    "board_cost": 331.81,
+    "total_board_cost": 331.81,
+    "subtotal_materials": 347.8,
+    "converting_costs": 0.33,
+    "direct_cost": 348.47,
+    "fixed_mfg_overhead": 71.62,
+    "selling_overheads": 6.14,
+    "fixed_overheads": 144.61,
+    "full_cost": 493.08,
+    "profit_cost": 55.13,
+    "base_cost": 0,
+    "setup_cost": 0,
+    "pricing_tiers": [
+      {
+        "quantity": 500,
+        "price": 2101.0,
+        "full_cost": 0.0
+      },
+      {
+        "quantity": 1000,
+        "price": 1750.0,
+        "full_cost": 0.0
+      }
+    ],
+    "board_breaks": []
+  },
+  {
+    "design_id": "MRO35174",
+    "customer_name": "",
+    "box_size": "11.04 x 812 x 10.00",
+    "box_style": "RSC",
+    "board_grade": "200",
+    "unit_count": 500,
+    "board_cost": 371.46,
+    "total_board_cost": 371.46,
+    "subtotal_materials": 391.55,
+    "converting_costs": 11.14,
+    "direct_cost": 402.69,
+    "fixed_mfg_overhead": 49.5,
+    "selling_overheads": 5.85,
+    "fixed_overheads": 167.12,
+    "full_cost": 569.81,
+    "profit_cost": 50.0,
+    "base_cost": 0,
+    "setup_cost": 0,
+    "pricing_tiers": [
+      {
+        "quantity": 500,
+        "price": 1248.0,
+        "full_cost": 0.0
+      },
+      {
+        "quantity": 1000,
+        "price": 997.0,
+        "full_cost": 0.0
+      }
+    ],
+    "board_breaks": []
+  }
+]
