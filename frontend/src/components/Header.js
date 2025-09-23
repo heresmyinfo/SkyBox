@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { FiSearch, FiHome, FiFileText, FiSettings, FiTrendingUp, FiDollarSign, FiGitBranch } from 'react-icons/fi';
+import { FiSearch, FiHome, FiFileText, FiSettings, FiTrendingUp, FiDollarSign, FiGitBranch, FiGrid } from 'react-icons/fi';
 
 const Header = ({ stats }) => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -44,7 +44,7 @@ const Header = ({ stats }) => {
               alt="SkyBox Logo" 
               style={{ 
                 marginRight: '0.5rem', 
-                height: '2rem', 
+                height: '9rem', 
                 width: 'auto' 
               }} 
             />
@@ -165,6 +165,18 @@ const Header = ({ stats }) => {
             }}>
               <FiGitBranch style={{ marginRight: '0.25rem' }} />
               Workflow
+            </Link>
+            <Link to="/interact" style={{
+              display: 'flex',
+              alignItems: 'center',
+              textDecoration: 'none',
+              color: 'white',
+              padding: '0.5rem 1rem',
+              borderRadius: '5px',
+              transition: 'background-color 0.3s'
+            }}>
+              <FiGrid style={{ marginRight: '0.25rem' }} />
+              INTERACT Output
             </Link>
           </nav>
         </div>

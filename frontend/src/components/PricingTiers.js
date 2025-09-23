@@ -224,3 +224,9 @@ const PricingTiers = () => {
 
 export default PricingTiers;
 
+
+
+
+
+
+

@@ -45,6 +45,12 @@ export const designAPI = {
   // Get statistics
   getStats: () => api.get('/stats'),
   
+  // Get INTERACT-like output for a design id
+  getInteract: (id) => api.get(`/interact/${encodeURIComponent(id)}`),
+
+  // List available INTERACT IDs
+  getInteractList: () => api.get('/interact'),
+
   // Health check
   healthCheck: () => api.get('/health'),
 };

@@ -9,6 +9,7 @@ import MachineRouting from './components/MachineRouting';
 import PricingTiers from './components/PricingTiers';
 import WorkflowDiagram from './components/WorkflowDiagram';
 import { designAPI } from './services/api';
+import INTERACTOutput from './components/INTERACTOutput';
 import './styles/index.css';
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
             <Route path="/machine-routing" element={<MachineRouting />} />
             <Route path="/pricing-tiers" element={<PricingTiers />} />
             <Route path="/workflow" element={<WorkflowDiagram />} />
+            <Route path="/interact" element={<INTERACTOutput />} />
           </Routes>
         </main>
         {error && (

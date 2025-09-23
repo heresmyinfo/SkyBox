@@ -1,6 +1,8 @@
 const express = require('express');
 const cors = require('cors');
 const { Pool } = require('pg');
+const fs = require('fs');
+const path = require('path');
 require('dotenv').config();
 
 const app = express();
@@ -17,6 +19,169 @@ app.use(express.json());
 app.use(express.static('public'));
 
 // Routes
+app.get('/api/interact', async (req, res) => {
+  try {
+    // List available MRO IDs from mounted data directories
+    const roots = [
+      path.resolve(__dirname, 'data'),
+      path.resolve(process.cwd(), 'data'),
+      path.resolve('/app/designs/data')
+    ];
+    const seen = new Set();
+    const ids = [];
+    for (const root of roots) {
+      if (!fs.existsSync(root)) continue;
+      const files = fs.readdirSync(root);
+      for (const f of files) {
+        const m = f.match(/^(MRO\d+)\.txt$/i);
+        if (m) {
+          const id = m[1].toUpperCase();
+          if (!seen.has(id)) { seen.add(id); ids.push(id); }
+        }
+      }
+    }
+    ids.sort();
+    res.json({ ids });
+  } catch (error) {
+    console.error('Error listing INTERACT IDs:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+app.get('/api/interact/:id', async (req, res) => {
+  try {
+    const { id } = req.params; // Expect like MRO32920 or 32920
+    const baseId = id.startsWith('MRO') ? id : `MRO${id}`;
+    const fileName = `${baseId}.txt`;
+    const candidatePaths = [
+      // In-image default (Docker mounts ./data to /app/data)
+      path.resolve(__dirname, 'data', fileName),
+      // Fallback to CWD when running locally with node server.js in backend/
+      path.resolve(process.cwd(), 'data', fileName),
+      // Extra compose mount maps repo root to /app/designs
+      path.resolve('/app/designs/data', fileName)
+    ];
+    const txtPath = candidatePaths.find((p) => fs.existsSync(p));
+
+    if (!txtPath) {
+      return res.status(404).json({ error: `Text file not found for ${baseId}` });
+    }
+
+    const raw = fs.readFileSync(txtPath, 'utf8');
+    const lines = raw.split(/\r?\n/);
+    const text = raw;
+
+    // helpers
+    const matchFirst = (regex) => {
+      const m = text.match(regex);
+      return m ? m[1] || m[0] : null;
+    };
+    const matchAll = (regex) => {
+      const ms = [...text.matchAll(regex)];
+      return ms.map((m) => m[1] || m[0]);
+    };
+
+    // Extract fields
+    const ardFile = matchFirst(/\b(MRO\d+\.ARD)\b/i);
+    // Prefer pattern like "10 x 22 x 1+3/4" or "22 x 10 x 1.75"
+    const dimCandidates = matchAll(/(\d+\s*x\s*\d+\s*x\s*[\d+/.]+(?:\s*OPF)?)/gi);
+    const displayDimensions = Array.from(new Set(dimCandidates));
+
+    const designCode = matchFirst(/\b(\d+\s*x\s*\d+\s*x\s*[\d+/.]+)\b/i);
+
+    // Extract numeric width/height/depth best-effort from a dims candidate (choose one with decimals if available)
+    const preferredDim = displayDimensions.find((d) => /\d+\.\d+|\d+\+\d+\/\d+/.test(d)) || displayDimensions[0] || '';
+    let width = null, height = null, depth = null;
+    const dimParts = preferredDim ? preferredDim.replace(/opf/i, '').split('x').map((s) => s.trim()) : [];
+    const toNumber = (s) => {
+      if (!s) return null;
+      // handle formats like 1+3/4
+      if (/\d+\+\d+\/\d+/.test(s)) {
+        const [i, frac] = s.split('+');
+        const [n, d] = frac.split('/');
+        return Number(i) + Number(n) / Number(d);
+      }
+      return Number(s);
+    };
+    if (dimParts.length === 3) {
+      // The files sometimes appear as W x H x D in either order; we will map as given
+      width = toNumber(dimParts[0]);
+      height = toNumber(dimParts[1]);
+      depth = toNumber(dimParts[2]);
+    }
+
+    const blankSize = matchFirst(/\b(\d+(?:\+\d+\/\d+)?\s*x\s*\d+(?:\+\d+\/\d+)?)\b/);
+    const recordId = matchFirst(/\b(\d{9,})\b\s+\d+\s*x\s*\d+\s*x\s*[\d+/.]+/);
+    const dates = matchAll(/\b(\d{4}-\d{2}-\d{2})\b/g);
+    const orientationFlags = matchFirst(/\b(AT\s+[^\r\n]+)\b/);
+    const colorNote = matchFirst(/100%\s*Cyan/i) ? '100% Cyan' : null;
+    const cmykMatch = matchFirst(/\b(\d{1,3}\s+\d{1,3}\s+\d{1,3}\s+\d{1,3})\b/);
+    const cmyk = cmykMatch ? cmykMatch.split(/\s+/).map((n) => Number(n)) : null;
+    const networkPath = matchFirst(/[+\\][\\/][^\r\n]*MRO\d+\.ARD\b/);
+
+    // Database fields best-effort
+    const dbFields = {};
+    if (blankSize) dbFields['Blank Size'] = blankSize;
+    // Pull adjacent labels where available
+    const labelLine = lines.find((l) => /Grain\/Corr:/.test(l));
+    if (labelLine) {
+      const pairs = labelLine.split(/\s{2,}|\t/g).filter(Boolean);
+      // naive split by colon
+      for (const p of pairs) {
+        const idx = p.indexOf(':');
+        if (idx > 0) {
+          const k = p.slice(0, idx).trim();
+          const v = p.slice(idx + 1).trim() || null;
+          if (k) dbFields[k] = v || dbFields[k] || null;
+        }
+      }
+    }
+    ['Grain/Corr', 'Side Shown', 'Description', 'Total Rule', 'Blank Size', 'Mfg Joint', 'Specific Rule Legend', '# of Components', '# Parts Req', 'Designer']
+      .forEach((k) => { if (!(k in dbFields)) dbFields[k] = null; });
+
+    // Compose INTERACT-like schema
+    const result = {
+      Units: 'IN',
+      DesignName: designCode || baseId,
+      FileName: ardFile || `${baseId}.ARD`,
+      Width: width,
+      Height: height,
+      Depth: depth,
+      Board: null,
+      Display: {
+        DesignCode: designCode,
+        DisplayDimensions: displayDimensions,
+        BlankSize: blankSize,
+        RecordId: recordId,
+        Dates: dates,
+        OrientationFlags: orientationFlags,
+        ColorNote: colorNote,
+        CMYK: cmyk,
+        NetworkPath: networkPath
+      },
+      DatabaseFields: dbFields,
+      Geometry: {
+        Layers: {
+          Cut: [],
+          Crease: [],
+          Perf: [],
+          HalfCut: [],
+          ReverseCrease: [],
+          Emboss: [],
+          Score: [],
+          Other: []
+        },
+        Arcs: [],
+        Text: [],
+        Dimensions: []
+      }
+    };
+
+    res.json(result);
+  } catch (error) {
+    console.error('Error building INTERACT output:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
 app.get('/api/designs', async (req, res) => {
   try {
     const result = await pool.query(`

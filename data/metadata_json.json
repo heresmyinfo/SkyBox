@@ -1,0 +1,71 @@
+{
+    "file_info": {
+      "type": "I-code MS U Report File",
+      "filenames": ["MRO32920.ARD", "MRO32920.ARDC", "MRO32920.ARDO"],
+      "dates": ["2023-03-29", "2022-02-24"],
+      "path": "\\\\SKYFP\\Artios\\Designs\\Designs\\MRO32920.ARDO"
+    },
+    "dimensions": {
+      "nominal_size": "22 x 10 x 1.75",
+      "alternate_size": "10 x 22 x 1+3/4",
+      "opf": "24+5/8 x 31+1/16",
+      "overall": "22 x 10 x 1.75"
+    },
+    "structure": {
+      "board_selection": "Corrugated - Inch",
+      "grain_corr": "Side",
+      "style": "F0401 (Standard Master – Basic/Inside dimensions)",
+      "dust_flaps": true,
+      "panel_allowances": {
+        "length_panel_offset": true,
+        "width_panel_offset": true,
+        "depth_panel_offset": true
+      },
+      "bridging_formula": "Defaults/Bridging/Artios/Corrugated/Corrugated - Inch - bridging formula",
+      "single_design_parameters": "Defaults/Single design parameter sets/Artios/Corrugated/Corrugated - Inch - Single design parameters"
+    },
+    "identifiers": {
+      "design_id": "1111170376",
+      "project_code": "OPF",
+      "stdmaster_section": "F0401",
+      "style_choice_menu": "F0401GEOM"
+    },
+    "color_layers": {
+      "colors_used": ["COLOR1", "COLOR2", "COLOR3", "COLOR4", "COLOR5", "COLOR6", "COLOR7", "COLOR8", "COLOR9", "COLOR10", "COLOR11", "COLOR12", "COLOR13", "COLOR14", "COLOR16", "COLOR17", "COLOR19", "COLOR20", "COLOR21", "COLOR24", "COLOR31", "COLOR41"],
+      "layers": ["LYR0C0", "LYR1C4", "LYR2C5", "LYR3C13"],
+      "menu_reference": "STDMENU WITH 'F0401GEOM'",
+      "fills": ["FILL26", "Paste layers"],
+      "strip_info": "STRIP BVH"
+    },
+    "components": {
+      "num_components": "SC76",
+      "num_parts_required": "SC2B",
+      "designer": null
+    },
+    "annotation_print": {
+      "text": ["CERT", "22x10x1.75", "L/E"],
+      "fonts": ["Arial (TTF B)", "Arial (TTF R)"],
+      "cyan_plate": "100% Cyan (100 20 0 0)",
+      "unprinted_side": true
+    },
+    "dimensioning": {
+      "dim_rd_suffix": true,
+      "dimension_round": 16,
+      "format": 3,
+      "head_size": 5,
+      "line_width": "0.00025 * #MSIZE",
+      "units": "inch"
+    },
+    "operations": [
+      "movelasso",
+      "trans",
+      "copyd",
+      "del",
+      "cha",
+      "group",
+      "rotation",
+      "nickwidth",
+      "bridge"
+    ]
+  }
+  

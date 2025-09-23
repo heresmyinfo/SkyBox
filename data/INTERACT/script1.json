@@ -1,0 +1,123 @@
+REM ===========================================================
+REM Export ARD design, metadata, geometry, and tooling info to JSON
+REM with unit normalization and user-defined output path
+REM ===========================================================
+
+REM ---- Ask for file path ----
+ASK "Enter export file path (e.g. C:\exports\ard_export.json):" EXPFILE$
+
+REM ---- Set export units ----
+UNITS$ = "MM"    REM Options: "MM" or "IN"
+
+REM ---- Conversion factor ----
+IF UNITS$ = "MM" THEN
+    FACTOR = 1.0
+ELSE
+    FACTOR = 1.0 / 25.4
+END IF
+
+FUNCTION ToUnit$(VAL)
+    ToUnit$ = STR$(VAL * FACTOR)
+END FUNCTION
+
+FUNCTION EscapeJSON$(S$)
+    TEMP$ = REPLACE$(S$, "\", "\\")
+    TEMP$ = REPLACE$(TEMP$, """", "\""")
+    EscapeJSON$ = TEMP$
+END FUNCTION
+
+OPEN FILE EXPFILE$ FOR WRITE
+
+WRITE "{"
+
+REM ------------------------
+REM Design metadata
+REM ------------------------
+WRITE "  \"Units\": \"" & UNITS$ & "\","
+WRITE "  \"DesignName\": \"" & EscapeJSON$(DESIGNNAME$) & "\","
+WRITE "  \"FileName\": \"" & EscapeJSON$(FILENAME$) & "\","
+WRITE "  \"Width\": " & ToUnit$(DESIGNWIDTH) & ","
+WRITE "  \"Height\": " & ToUnit$(DESIGNHEIGHT) & ","
+WRITE "  \"Depth\": " & ToUnit$(DESIGNDEPTH) & ","
+WRITE "  \"Board\": \"" & EscapeJSON$(BOARDDESC$) & "\","
+
+REM ------------------------
+REM Database fields
+REM ------------------------
+WRITE "  \"DatabaseFields\": {"
+FOR I = 1 TO DBFIELDCOUNT
+    WRITE "    \"" & EscapeJSON$(DBFIELDNAME$(I)) & "\": \"" & EscapeJSON$(DBFIELDVALUE$(I)) & "\""
+    IF I < DBFIELDCOUNT THEN WRITE ","
+NEXT I
+WRITE "  },"
+
+REM ------------------------
+REM Geometry object with tooling info
+REM ------------------------
+WRITE "  \"Geometry\": {"
+WRITE "    \"Layers\": {"
+
+DIM RULES$(8)
+RULES$(1) = "Cut"
+RULES$(2) = "Crease"
+RULES$(3) = "Perf"
+RULES$(4) = "HalfCut"
+RULES$(5) = "ReverseCrease"
+RULES$(6) = "Emboss"
+RULES$(7) = "Score"
+RULES$(8) = "Other"
+
+FOR R = 1 TO 8
+    WRITE "      \"" & RULES$(R) & "\": ["
+    FIRST = 1
+    FOR L = 1 TO LINECOUNT
+        GETLINE L
+        IF RULETYPE$ = RULES$(R) THEN
+            IF FIRST = 0 THEN WRITE ","
+            WRITE "        {"
+            WRITE "          \"X1\": " & ToUnit$(X1) & ", \"Y1\": " & ToUnit$(Y1) & ", \"X2\": " & ToUnit$(X2) & ", \"Y2\": " & ToUnit$(Y2) & ","
+            WRITE "          \"RuleType\": \"" & EscapeJSON$(RULETYPE$) & "\","
+            WRITE "          \"RuleWidth\": " & ToUnit$(RULEWIDTH) & ","
+            WRITE "          \"ToolID\": \"" & EscapeJSON$(TOOLID$) & "\","
+            WRITE "          \"NickCount\": " & STR$(NICKCOUNT)
+            WRITE "        }"
+            FIRST = 0
+        END IF
+    NEXT L
+    WRITE "      ]"
+    IF R < 8 THEN WRITE ","
+NEXT R
+
+WRITE "    },"   REM End Layers object
+
+REM ---- Arcs ----
+WRITE "    \"Arcs\": ["
+FOR A = 1 TO ARCCOUNT
+    GETARC A
+    WRITE "      {\"CX\": " & ToUnit$(CX) & ", \"CY\": " & ToUnit$(CY) & ", \"Radius\": " & ToUnit$(RADIUS) & ", \"StartAngle\": " & STR$(STARTANG) & ", \"EndAngle\": " & STR$(ENDANG) & "}"
+    IF A < ARCCOUNT THEN WRITE ","
+NEXT A
+WRITE "    ],"
+
+REM ---- Text ----
+WRITE "    \"Text\": ["
+FOR T = 1 TO TEXTCOUNT
+    GETTEXT T
+    WRITE "      {\"X\": " & ToUnit$(TX) & ", \"Y\": " & ToUnit$(TY) & ", \"String\": \"" & EscapeJSON$(TEXTSTRING$) & "\"}"
+    IF T < TEXTCOUNT THEN WRITE ","
+NEXT T
+WRITE "    ],"
+
+REM ---- Dimensions ----
+WRITE "    \"Dimensions\": ["
+FOR D = 1 TO DIMCOUNT
+    GETDIM D
+    WRITE "      {\"X\": " & ToUnit$(DIMX) & ", \"Y\": " & ToUnit$(DIMY) & ", \"Value\": " & ToUnit$(DIMVALUE) & "}"
+    IF D < DIMCOUNT THEN WRITE ","
+NEXT D
+WRITE "    ]"
+
+WRITE "  }"   REM End Geometry object
+
+WRITE "}"
+CLOSE FILE
