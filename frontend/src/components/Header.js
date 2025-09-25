@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { FiSearch, FiHome, FiFileText, FiSettings, FiTrendingUp, FiDollarSign, FiGitBranch, FiGrid } from 'react-icons/fi';
+import { FiSearch, FiHome, FiTrendingUp, FiDollarSign, FiGitBranch, FiGrid } from 'react-icons/fi';
 
 const Header = ({ stats }) => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -106,30 +106,6 @@ const Header = ({ stats }) => {
               <FiHome style={{ marginRight: '0.25rem' }} />
               Dashboard
             </Link>
-            <Link to="/mro-drawings" style={{
-              display: 'flex',
-              alignItems: 'center',
-              textDecoration: 'none',
-              color: 'white',
-              padding: '0.5rem 1rem',
-              borderRadius: '5px',
-              transition: 'background-color 0.3s'
-            }}>
-              <FiFileText style={{ marginRight: '0.25rem' }} />
-              MRO Drawings
-            </Link>
-            <Link to="/mtech-specs" style={{
-              display: 'flex',
-              alignItems: 'center',
-              textDecoration: 'none',
-              color: 'white',
-              padding: '0.5rem 1rem',
-              borderRadius: '5px',
-              transition: 'background-color 0.3s'
-            }}>
-              <FiSettings style={{ marginRight: '0.25rem' }} />
-              MTECH Specs
-            </Link>
             <Link to="/machine-routing" style={{
               display: 'flex',
               alignItems: 'center',
@@ -204,9 +180,9 @@ const Header = ({ stats }) => {
               <div style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>
                 {stats.mtechSpecs || 0}
               </div>
-              <div style={{ fontSize: '0.9rem', opacity: 0.8 }}>
+              {/* <div style={{ fontSize: '0.9rem', opacity: 0.8 }}>
                 MTECH Specs
-              </div>
+              </div> */}
             </div>
             <div style={{ textAlign: 'center' }}>
               <div style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>
